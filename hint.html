@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Secret Hint</title>
+<style>
+  body {
+    background: black;
+    color: #0f0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  .glitch {
+    font-size: 2.5rem;
+    position: relative;
+    color: #0f0;
+    animation: glitch 2s infinite;
+  }
+  @keyframes glitch {
+    0% {
+      text-shadow: 2px 0 red;
+    }
+    20% {
+      text-shadow: -2px 0 cyan;
+    }
+    40% {
+      text-shadow: 2px 0 red;
+    }
+    60% {
+      text-shadow: -2px 0 cyan;
+    }
+    80% {
+      text-shadow: 2px 0 red;
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  p {
+    max-width: 400px;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+  <h1 class="glitch">The Chosen One Awaits...</h1>
+  <p>To pass the test, remember this code:</p>
+  <p><strong>chosenone</strong></p>
+  <p>Seek the password hidden in the whispers of the government...</p>
+</body>
+</html>

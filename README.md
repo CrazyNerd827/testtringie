@@ -1,2 +1,2 @@
 # testtringie
-The Code Is chosenone Do the job and go
+The Code To Take The Test.
